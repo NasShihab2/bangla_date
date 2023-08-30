@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var englishDate = DateTime(2023, 8, 30);
-    var banglaDate = DateFormat.yMMMMEEEEd('bn_BD').format(englishDate);
+    var banglaDate = DateFormat.yMMMMd('bn_BD').format(englishDate);
 
     return Scaffold(
       appBar: AppBar(
